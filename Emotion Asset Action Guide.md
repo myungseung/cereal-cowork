@@ -24,15 +24,15 @@
 - 기존 통과 asset과 동작/각도/상황이 무엇이 다른가?
 - 정면 standing 표정 변화만으로 끝나지 않는가?
 
-## 16-20 교체 후보
+## 16-20 동작 설계
 
 | priority | asset | chat trigger | action | 차이 |
 |---|---|---|---|---|
-| 1 | `reaching_toward_camera` | `Wait, let me show you.` | 한 손을 카메라 쪽으로 뻗음 | video-chat depth, 화면과 직접 상호작용 |
-| 2 | `lean_in_listening` | `Wait, what did you say?` | 상체를 카메라 쪽으로 기울임 | 물러남이 아니라 적극적 접근 |
-| 3 | `turning_back_to_camera` | `Oh—hold on.` | 책상/창문 쪽을 보다가 어깨 너머로 돌아봄 | 몸 회전, 방이 배경이 아니라 장면 |
-| 4 | `caught_mid_step` | `I'm coming back.` | 방 안에서 한 걸음 움직이다 멈춤 | stationary pose가 아니라 이동 중 포착 |
-| 5 | `laughing_turn_away` | unexpected funny line | 웃으며 몸을 돌렸다가 다시 돌아오는 순간 | 표정 웃음보다 전환 동작 중심 |
+| 16 | `hiding_face_turn_away` | `그렇게 얼굴 가리면 더 귀여운 거 알아?` | 얼굴을 일부 가리고 몸을 살짝 돌림 | 수줍음이 표정색이 아니라 회피 동작 |
+| 17 | `turning_back_to_camera` | `Oh—hold on.` | 책상/창문 쪽을 보다가 어깨 너머로 돌아봄 | 몸 회전, 방이 배경이 아니라 장면 |
+| 18 | `caught_mid_step` | `I'm coming back.` | 방 안에서 한 걸음 움직이다 멈춤 | stationary pose가 아니라 이동 중 포착 |
+| 19 | `reaching_toward_camera` | `Wait, let me show you.` | 한 손을 카메라 쪽으로 뻗음 | video-chat depth, 화면과 직접 상호작용 |
+| 20 | `lean_in_listening` | `Wait, what did you say?` | 상체를 카메라 쪽으로 기울임 | 물러남이 아니라 적극적 접근 |
 
 ## Prompt 지침
 
