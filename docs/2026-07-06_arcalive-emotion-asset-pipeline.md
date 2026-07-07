@@ -5,6 +5,7 @@
 
 ## Ask Prompt
 [[Ask Agent Prompt]]
+[[Emotion Asset Action Guide]]
 
 ## SOT
 
