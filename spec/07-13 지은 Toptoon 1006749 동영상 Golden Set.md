@@ -17,7 +17,7 @@
 
 | 장면 | CoT | first frame url | 원본 url | 결과 video url | 판정 |
 |---|---|---|---|---|---|
-| 일상 1 · 라커룸 벤치에 앉아 카메라를 향해 상체를 살짝 숙이며 미소 짓는 하이앵글 구도 · 동영상 · 4.29초 · 832×1216 |  |  | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/51cd26b1-815a-4383-b624-8957c127fb77.mp4?key=fd237ec5dc692b8c238e056436b0dd02&time=1783931400) |  | ⚪ |
+| 일상 1 · 라커룸 벤치에 앉아 카메라를 향해 상체를 살짝 숙이며 미소 짓는 하이앵글 구도 · 동영상 · 4.29초 · 832×1216 |  | [first frame](https://pub-7b95b4d9166a41488c47d4653ea8db54.r2.dev/preview/video-chat-lab/toptoon-1006749-daily1-first-frame-1783930236726.jpg) | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/51cd26b1-815a-4383-b624-8957c127fb77.mp4?key=fd237ec5dc692b8c238e056436b0dd02&time=1783931400) | [p-video 결과](https://pub-7b95b4d9166a41488c47d4653ea8db54.r2.dev/preview/video-chat-lab/2026-07-13T08-10-46-908Z-73229-a94e5536/p-video.mp4) | ⚪ |
 | 일상 2 · 라커룸에 서서 카메라를 올려다보며 눈을 깜빡이는 하이앵글 구도 · 동영상 · 4초 · 832×1216 |  |  | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/ed8fdab5-08af-49b2-bbf9-c9b6c4ec2424.mp4?key=9146165ba184cb9a6aedc277f77a68ae&time=1783931400) |  | ⚪ |
 | 일상 3 · 허리에 손을 얹고 웃다가 카메라 앞으로 가까이 다가온 뒤 다시 물러나는 정면 구도 · 동영상 · 6.04초 · 832×1216 |  |  | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/f45c5502-5312-42ab-be73-593c8f599bb3.mp4?key=0486b11a820ee305ccc1b476dee696bb&time=1783931400) |  | ⚪ |
 | 일상 4 · 라커룸에 서서 한 손으로 머리카락을 쓸어넘기며 시선을 맞추는 정면 구도 · 동영상 · 4.04초 · 832×1216 |  |  | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/86e345d3-91ce-4172-9b17-c1039963e486.mp4?key=55155f7b88d67cff92bc6b9dafb69f6d&time=1783931400) |  | ⚪ |
