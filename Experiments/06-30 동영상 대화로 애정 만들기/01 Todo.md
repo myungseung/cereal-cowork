@@ -1,6 +1,11 @@
 - [x] [[02 Results]] 이미지 3장 사용자 PASS — 2026-07-13
 - [x] [[spec/07-13 지은 이미지 Golden Set]] 테스트 종류 14종 확정
-- [ ] `D04–R03` 테스트 Chat 실행 + 이미지 11장 생성
-- [ ] 이미지 14종 사용자 판정
+- [x] 이미지 14종 R2 image + manifest 생성 — 2026-07-13
+- [x] 이미지 9종 사용자 PASS — D01–D03 / D05–D06 / P01–P04
+- [x] deterministic 생성 검증 — LLM 0회 / manifest 계약 일치
+- [ ] D04 / P05 / R01 / R02 / R03 사용자 판정
+- [ ] 테스트 대사를 실제 제품 Chat raw 대사로 교체
 - [ ] 이미지 생성 계약 동결
+- [ ] `sceneSlots` → `sceneSpec` → prompt builder 제품 연결
+- [ ] 테스트 제품 image/manifest/blur/unlock E2E
 - [ ] 동결 후 테스트 제품 적용 handoff
