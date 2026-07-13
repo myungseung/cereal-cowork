@@ -9,6 +9,7 @@
 
 - Golden Set 원문: [[Research/07-10 Toptoon Chat 첫 대화 Golden Set Raw]]
 - Golden Set 분석: [[Research/07-10 Toptoon Chat 첫 대화 Golden Set 분석]]
+- 이미지 Golden Set: [[spec/07-13 지은 이미지 Golden Set]]
 - 캐릭터 manifest: [열기](https://pub-7b95b4d9166a41488c47d4653ea8db54.r2.dev/profile/preview_1783700936593/manifest.json)
 - 이미지 설정: Z-Image Turbo + NiceGirls `0.5` + Hyper-SD `0.2` + Mystic `0.3`
 - 고정 seed: `4170581481`
