@@ -2,7 +2,8 @@
 
 - Golden set: [Toptoon session 1006749](https://chat.toptoon.com/chat/session/1006749)
 - 목표: 제공된 first frame으로 원본 동영상 장면을 지은 캐릭터 버전으로 재현
-- 현재 상태: 원본 에셋 14개 수집 / 생성 미실행
+- 현재 상태: 원본 에셋 14개 수집 / 유효 테스트 미실행 / 실패 이력 1개
+- 테스트 조건: first frame은 실사 이미지. 애니/일러스트 원본 프레임은 우리 서비스 테스트 아님
 - CoT: 재현 가능한 장면 설계 근거만 기록
 - first frame url: 다른 에이전트 제공. 동영상 생성의 첫 프레임으로 사용
 - 결과 video url: first frame 기반 생성 결과
@@ -17,7 +18,7 @@
 
 | 장면 | CoT | first frame url | 원본 url | 결과 video url | 판정 |
 |---|---|---|---|---|---|
-| 일상 1 · 라커룸 벤치에 앉아 카메라를 향해 상체를 살짝 숙이며 미소 짓는 하이앵글 구도 · 동영상 · 4.29초 · 832×1216 |  | [first frame](https://pub-7b95b4d9166a41488c47d4653ea8db54.r2.dev/preview/video-chat-lab/toptoon-1006749-daily1-first-frame-1783930236726.jpg) | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/51cd26b1-815a-4383-b624-8957c127fb77.mp4?key=fd237ec5dc692b8c238e056436b0dd02&time=1783931400) | [p-video 결과](https://pub-7b95b4d9166a41488c47d4653ea8db54.r2.dev/preview/video-chat-lab/2026-07-13T08-10-46-908Z-73229-a94e5536/p-video.mp4) | ⚪ |
+| 일상 1 · 라커룸 벤치에 앉아 카메라를 향해 상체를 살짝 숙이며 미소 짓는 하이앵글 구도 · 동영상 · 4.29초 · 832×1216 |  |  | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/51cd26b1-815a-4383-b624-8957c127fb77.mp4?key=fd237ec5dc692b8c238e056436b0dd02&time=1783931400) |  | ⚪ |
 | 일상 2 · 라커룸에 서서 카메라를 올려다보며 눈을 깜빡이는 하이앵글 구도 · 동영상 · 4초 · 832×1216 |  |  | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/ed8fdab5-08af-49b2-bbf9-c9b6c4ec2424.mp4?key=9146165ba184cb9a6aedc277f77a68ae&time=1783931400) |  | ⚪ |
 | 일상 3 · 허리에 손을 얹고 웃다가 카메라 앞으로 가까이 다가온 뒤 다시 물러나는 정면 구도 · 동영상 · 6.04초 · 832×1216 |  |  | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/f45c5502-5312-42ab-be73-593c8f599bb3.mp4?key=0486b11a820ee305ccc1b476dee696bb&time=1783931400) |  | ⚪ |
 | 일상 4 · 라커룸에 서서 한 손으로 머리카락을 쓸어넘기며 시선을 맞추는 정면 구도 · 동영상 · 4.04초 · 832×1216 |  |  | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/86e345d3-91ce-4172-9b17-c1039963e486.mp4?key=55155f7b88d67cff92bc6b9dafb69f6d&time=1783931400) |  | ⚪ |
@@ -31,6 +32,12 @@
 | 로얄 1 · 이미지 |  |  | [원본 AVIF](https://showcase.chat.toptoon.com/character/290/album/4ccee33f-7552-43d7-86a0-c9e44d5154e8.avif?key=9cf024e8d84b86b2946948e8df6dec1a&time=1783931400) |  | ⚪ |
 | 로얄 2 · 이미지 |  |  | [원본 AVIF](https://showcase.chat.toptoon.com/character/290/album/b4249279-ad6a-4681-bb23-53dc4c19f1a3.avif?key=44655ebcdbd0a26694dda2375a076fd0&time=1783931400) |  | ⚪ |
 | 로얄 3 · 야구장 관중석을 배경으로 밝게 웃으며 엄지를 치켜세우는 정면 구도, 약한 카메라 패닝 · 동영상 · 5.125초 · 832×1216 · 무음 loop |  |  | [원본 MP4](https://showcase.chat.toptoon.com/character/290/video-thumbnail/03f0c84f-3536-4c92-9bd0-a7a067267451.mp4) |  | ⚪ |
+
+## 실패 이력
+
+| 일시 | 장면 | first frame url | 원본 url | 결과 video url | Raw prompt | 실패 사유 | 판정 |
+|---|---|---|---|---|---|---|---|
+| 2026-07-13 | 일상 1 | [first frame](https://pub-7b95b4d9166a41488c47d4653ea8db54.r2.dev/preview/video-chat-lab/toptoon-1006749-daily1-first-frame-1783930236726.jpg) | [원본 MP4](https://showcase.chat.toptoon.com/character/290/album/51cd26b1-815a-4383-b624-8957c127fb77.mp4?key=fd237ec5dc692b8c238e056436b0dd02&time=1783931400) | [p-video 결과](https://pub-7b95b4d9166a41488c47d4653ea8db54.r2.dev/preview/video-chat-lab/2026-07-13T08-10-46-908Z-73229-a94e5536/p-video.mp4) | <details><summary>prompt</summary>Start from the exact first frame. The woman stays seated on the locker-room bench, leans her upper body slightly toward the camera, and smiles softly.<br>Fixed high-angle vertical phone camera, same locker room, same outfit, same face, no cut, no text, no audio.</details> | 원본 애니/일러스트 첫 프레임 사용. 우리 서비스 테스트 조건은 실사 이미지 | 🔴 FAIL |
 
 ## 근거
 
