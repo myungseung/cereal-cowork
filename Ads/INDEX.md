@@ -12,6 +12,7 @@
 | 06-19 | [[Ads/06-19 2층 하숙집 preheat 집행]] | 새 영상 소재 `2층 하숙집 느낌` ACTIVE / `월드컵 다영` ACTIVE / 기존 preheat 카피 톤 적용 / 설명문 톤 초안 PAUSED | 06-20 |
 | 07-01 | [[Ads/07-01 Pre-heat Broad 증액]] | Pre-heat Broad ABO ₩60k → ₩78k(+30%) 증액 / CBO 추가 증액 보류 | 07-03 |
 | 07-06 | [[Ads/07-06 AI_pet LAL 재활성화 보류]] | `AI_pet - LAL` 단독 ON 보류 / Meta purchase와 DB Pay 불일치 / 재테스트는 전체 eligible active adset 동일 소재 적용 시만 | 재승인 시 |
+| 07-15 | [[Ads/07-15 VALUE 최적화 + AD26071002 조기 승격]] | VALUE ₩50k 집행 / `AD26071002` CBO·VALUE 3 adset 조기 승격 / Preheat 원본 OFF / iOS KEEP·AOS OFF | 07-22 |
 
 ## 소재 생성 로그
 
